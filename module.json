@@ -1,0 +1,33 @@
+{
+    "name": "TypesManager",
+    "alias": "types-manager",
+    "description": {
+        "ar": "Manage any type on your app in Database with easy to use Resources for FilamentPHP",
+        "en": "Manage any type on your app in Database with easy to use Resources for FilamentPHP",
+        "gr": "Manage any type on your app in Database with easy to use Resources for FilamentPHP",
+        "de": "Manage any type on your app in Database with easy to use Resources for FilamentPHP",
+        "nl": "Manage any type on your app in Database with easy to use Resources for FilamentPHP",
+        "fr": "Manage any type on your app in Database with easy to use Resources for FilamentPHP",
+        "sp": "Manage any type on your app in Database with easy to use Resources for FilamentPHP"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TypesManager\\Providers\\TypesManagerServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "TypesManager",
+        "en": "TypesManager",
+        "gr": "TypesManager",
+        "de": "TypesManager",
+        "nl": "TypesManager",
+        "fr": "TypesManager",
+        "sp": "TypesManager"
+    },
+    "color": "#16d5db",
+    "icon": "heroicon-c-tag",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0"
+}

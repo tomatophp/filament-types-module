@@ -1,0 +1,49 @@
+{
+    "name": "tomatophp/filament-types-module",
+    "type": "laravel-module",
+    "description": "Manage any type on your app in Database with easy to use Resource for FilamentPHP",
+    "keywords": [
+        "php",
+        "laravel",
+        "types",
+        "database",
+        "resource",
+        "manager"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/console-helpers": "^1.1",
+        "tomatophp/filament-plugins": "^1.0",
+        "filament/spatie-laravel-media-library-plugin": "^3.2",
+        "filament/spatie-laravel-translatable-plugin": "^3.2",
+        "filament/filament": "^3.0.0",
+        "tomatophp/filament-icons": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TypesManager\\": "app/",
+            "Modules\\TypesManager\\Database\\Factories\\": "database/factories/",
+            "Modules\\TypesManager\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TypesManager\\Tests\\": "tests/"
+        }
+    }
+}
